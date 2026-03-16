@@ -1,4 +1,5 @@
-import React from "react";
+import Header from "./Header";
+import ContentSection from "./components/ContentSection";
 import ParallaxLayer from "./ParallaxLayer";
 import mountains from "../assets/steep-mountains.png";
 
