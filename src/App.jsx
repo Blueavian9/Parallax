@@ -1,10 +1,9 @@
-/* */
 import React from "react";
 import Header from "./components/Header";
 import ParallaxSection from "./components/ParallaxSection";
 import ContentSection from "./components/ContentSection";
 
-const App = () => {
+function App() {
   return (
     <div>
       <Header />
@@ -12,6 +11,6 @@ const App = () => {
       <ContentSection />
     </div>
   );
-};
+}
 
 export default App;
